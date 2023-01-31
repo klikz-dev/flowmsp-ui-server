@@ -1,0 +1,14 @@
+version: '3'
+# x-aws-cluster: "flowmsp"
+# x-aws-loadbalancer: "arn:aws:elasticloadbalancing:us-west-2:954397200061:loadbalancer/app/flowmsp-elb/549ecc7f875756de"
+services:
+  nextjs:
+    build: ./
+    image: 954397200061.dkr.ecr.us-west-2.amazonaws.com/com.flowmsp/nextjs
+  nginx:
+    build: ./nginx
+    image: 954397200061.dkr.ecr.us-west-2.amazonaws.com/com.flowmsp/ui-server
+    ports:
+      - 80:80
+    depends_on:
+      - nextjs

@@ -1,0 +1,59 @@
+div.content{
+  position: absolute;
+  .filterIcon{
+    position: absolute;
+    z-index: 1;
+    top: 85px;
+    left: 10px;
+    background: #fff;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 2px;
+  }
+  .locator{
+    position: absolute;
+    z-index: 1;
+    top: 120px;
+    left: 10px;
+    background: #fff;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 2px;
+  }
+  .nextLocator{
+    position: absolute;
+    z-index: 1;
+    top: 150px;
+    left: 10px;
+    background: #fff;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 2px;
+  }
+  .prevLocator{
+    position: absolute;
+    z-index: 1;
+    top: 180px;
+    left: 10px;
+    background: #fff;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 2px;
+  }
+  .doKclose{
+    float: right;
+    padding-right: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  .row{
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 5px;
+    padding: 0 0px;
+    .header{
+      padding-left: 5px;
+    }
+  }  
+}

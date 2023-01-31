@@ -1,0 +1,52 @@
+{
+  "name": "ui-server",
+  "version": "2.45.2",
+  "description": "Front-end code for flowMSP",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
+    "axios": "^0.21.1",
+    "axios-retry": "^3.1.9",
+    "history": "^5.0.0",
+    "html2canvas": "^1.1.4",
+    "moment": "^2.29.1",
+    "moment-timezone": "^0.5.33",
+    "next": "11.0.1",
+    "react": "17.0.2",
+    "react-annotator": "0.0.1",
+    "react-bootstrap": "^1.6.1",
+    "react-color": "^2.19.3",
+    "react-datepicker": "^4.1.1",
+    "react-dnd": "^14.0.2",
+    "react-dnd-html5-backend": "^14.0.0",
+    "react-dock": "^0.4.0",
+    "react-dom": "^17.0.2",
+    "react-dropzone": "^11.3.4",
+    "react-google-maps": "^9.4.5",
+    "react-grid-gallery": "^0.5.5",
+    "react-icons": "^4.2.0",
+    "react-images": "^1.2.0-beta.7",
+    "react-loader-spinner": "^4.0.0",
+    "react-redux": "^7.2.4",
+    "react-router-bootstrap": "^0.25.0",
+    "react-router-dom": "^5.2.0",
+    "react-router-redux": "^4.0.8",
+    "react-tag-input": "^6.7.3",
+    "reactcss": "^1.2.3",
+    "redux": "^4.1.0",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-persist": "^6.0.0",
+    "sass": "^1.35.2",
+    "swr": "^0.5.6"
+  },
+  "devDependencies": {
+    "eslint": "7.31.0",
+    "eslint-config-next": "11.0.1"
+  }
+}

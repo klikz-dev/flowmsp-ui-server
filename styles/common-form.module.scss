@@ -1,0 +1,18 @@
+.common-form {
+  overflow-y: auto;
+  max-height: 70vh;
+  .form-group {
+    .required-label {
+      color: #ff0000;
+    }
+  }
+  .form-footer {
+    text-align: right;
+    .alert {
+      display: inline-block;
+      margin-right: 15px;
+      padding: 6px 12px;
+      margin-bottom: 0;
+    }
+  }
+}
